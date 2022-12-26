@@ -1,0 +1,14 @@
+{
+  "pages": {
+    "/": {
+      "title": "",
+      "viewPath": "Main/Main_Dash"
+    },
+    "/loging": {
+      "viewPath": "Main/loging"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom"
+  }
+}

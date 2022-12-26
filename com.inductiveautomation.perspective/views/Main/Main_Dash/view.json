@@ -1,0 +1,381 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Gauge"
+            },
+            "position": {
+              "breakpoints": [
+                {
+                  "colIndex": 8,
+                  "name": "sm",
+                  "order": 1,
+                  "rowIndex": 0,
+                  "span": 1
+                },
+                {
+                  "colIndex": 1,
+                  "name": "md",
+                  "order": 0,
+                  "rowIndex": 0,
+                  "span": 6
+                },
+                {
+                  "colIndex": 8,
+                  "name": "lg",
+                  "order": 1,
+                  "rowIndex": 0,
+                  "span": 1
+                }
+              ],
+              "height": 205
+            },
+            "propConfig": {
+              "props.value": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "direct",
+                    "publishInitial": false,
+                    "tagPath": "[Sample_Tags]Ramp/Ramp6"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "backgroundColor": "",
+              "innerAxis": {
+                "data": "secondaryValue",
+                "maxValue": 80,
+                "percentRadius": 85,
+                "show": false,
+                "width": 1
+              },
+              "outerAxis": {
+                "data": "value",
+                "maxValue": 120,
+                "percentRadius": 100,
+                "ranges": [
+                  {
+                    "color": "#77B6D8",
+                    "end": 80,
+                    "start": 0,
+                    "width": 8
+                  },
+                  {
+                    "color": "#6E94D7",
+                    "end": 105,
+                    "start": 80,
+                    "width": 12
+                  },
+                  {
+                    "color": "#7A6BD5",
+                    "end": 120,
+                    "start": 105,
+                    "width": 16
+                  }
+                ],
+                "show": true,
+                "width": 1
+              },
+              "style": {
+                "classes": []
+              }
+            },
+            "type": "ia.chart.gauge"
+          },
+          {
+            "meta": {
+              "name": "SimpleGauge"
+            },
+            "position": {
+              "breakpoints": [
+                {
+                  "colIndex": 9,
+                  "name": "sm",
+                  "order": 1,
+                  "rowIndex": 1,
+                  "span": 1
+                },
+                {
+                  "colIndex": 7,
+                  "name": "md",
+                  "order": 1,
+                  "rowIndex": 0,
+                  "span": 5
+                },
+                {
+                  "colIndex": 9,
+                  "name": "lg",
+                  "order": 1,
+                  "rowIndex": 1,
+                  "span": 1
+                }
+              ],
+              "height": 217
+            },
+            "propConfig": {
+              "props.value": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "direct",
+                    "publishInitial": false,
+                    "tagPath": "[Sample_Tags]Ramp/Ramp8"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "classes": []
+              }
+            },
+            "type": "ia.chart.simple-gauge"
+          },
+          {
+            "meta": {
+              "name": "LedDisplay"
+            },
+            "position": {
+              "breakpoints": [
+                {
+                  "colIndex": 5,
+                  "name": "sm",
+                  "order": 1,
+                  "rowIndex": 1,
+                  "span": 1
+                },
+                {
+                  "colIndex": 6,
+                  "name": "md",
+                  "order": 1,
+                  "rowIndex": 1,
+                  "span": 6
+                },
+                {
+                  "colIndex": 5,
+                  "name": "lg",
+                  "order": 1,
+                  "rowIndex": 1,
+                  "span": 1
+                }
+              ],
+              "height": 119
+            },
+            "propConfig": {
+              "props.value": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "direct",
+                    "publishInitial": false,
+                    "tagPath": "[Sample_Tags]Ramp/Ramp0"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "type": "ia.display.led-display"
+          },
+          {
+            "meta": {
+              "name": "CylindricalTank"
+            },
+            "position": {
+              "breakpoints": [
+                {
+                  "colIndex": 1,
+                  "name": "sm",
+                  "order": 1,
+                  "rowIndex": 2,
+                  "span": 3
+                },
+                {
+                  "colIndex": 1,
+                  "name": "md",
+                  "order": 1,
+                  "rowIndex": 2,
+                  "span": 3
+                },
+                {
+                  "colIndex": 1,
+                  "name": "lg",
+                  "order": 1,
+                  "rowIndex": 2,
+                  "span": 3
+                }
+              ],
+              "height": 171
+            },
+            "propConfig": {
+              "props.value": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "direct",
+                    "publishInitial": false,
+                    "tagPath": "[Sample_Tags]Ramp/Ramp1"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "type": "ia.display.cylindrical-tank"
+          },
+          {
+            "meta": {
+              "name": "SimpleGauge_0"
+            },
+            "position": {
+              "breakpoints": [
+                {
+                  "colIndex": 9,
+                  "name": "sm",
+                  "order": 2,
+                  "rowIndex": 2,
+                  "span": 1
+                },
+                {
+                  "colIndex": 9,
+                  "name": "md",
+                  "order": 2,
+                  "rowIndex": 2,
+                  "span": 8
+                },
+                {
+                  "colIndex": 9,
+                  "name": "lg",
+                  "order": 2,
+                  "rowIndex": 2,
+                  "span": 1
+                }
+              ],
+              "height": 103
+            },
+            "props": {
+              "endAngle": 405,
+              "label": {
+                "offsetY": 12
+              },
+              "startAngle": 135,
+              "style": {
+                "classes": []
+              }
+            },
+            "type": "ia.chart.simple-gauge"
+          }
+        ],
+        "meta": {
+          "name": "ColumnContainer"
+        },
+        "position": {
+          "basis": "543px"
+        },
+        "props": {
+          "gutters": {
+            "horizontal": 3,
+            "vertical": 2
+          }
+        },
+        "type": "ia.container.column"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\t"
+              },
+              "permissions": {
+                "securityLevels": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "name": "Roles"
+                      }
+                    ],
+                    "name": "Authenticated"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "name": "Default"
+                      }
+                    ],
+                    "name": "SecurityZones"
+                  }
+                ],
+                "type": "AllOf"
+              },
+              "scope": "G",
+              "type": "script"
+            },
+            "onPointerMove": {
+              "config": {
+                "script": "\t"
+              },
+              "preventDefault": true,
+              "scope": "G",
+              "stopPropagation": true,
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "IFrame",
+          "tooltip": {
+            "location": "center"
+          }
+        },
+        "position": {
+          "basis": "350px",
+          "grow": 1
+        },
+        "props": {
+          "src": "https://free.timeanddate.com/clock/i8ne56ju/n1440/tt0/tw0/tm1/ts1/tb4",
+          "style": {
+            "cursor": "auto",
+            "overflow": "hidden"
+          }
+        },
+        "type": "ia.display.iframe"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Main/loging"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "basis": "80px"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.flex"
+  }
+}

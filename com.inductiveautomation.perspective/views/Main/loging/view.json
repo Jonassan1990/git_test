@@ -1,0 +1,109 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "EquipmentSchedule"
+        },
+        "position": {
+          "height": 500,
+          "width": 750,
+          "x": 9,
+          "y": 34
+        },
+        "props": {
+          "dateRange": {
+            "endDate": {
+              "$": [
+                "ts",
+                0,
+                1672022034617
+              ],
+              "$ts": 1703631600000
+            },
+            "startDate": {
+              "$": [
+                "ts",
+                0,
+                1672022024986
+              ],
+              "$ts": 1672009200000
+            }
+          },
+          "defaultZoom": "day",
+          "items": [
+            {
+              "headerStyle": {
+                "classes": ""
+              },
+              "iconConfig": {
+                "color": "#D90000",
+                "path": "material/3d_rotation",
+                "style": {}
+              },
+              "id": "t",
+              "label": "DM",
+              "rowStyle": {
+                "classes": ""
+              }
+            },
+            {
+              "headerStyle": {
+                "classes": ""
+              },
+              "iconConfig": {
+                "color": "",
+                "path": "",
+                "style": {}
+              },
+              "id": "",
+              "label": "New Item",
+              "rowStyle": {
+                "classes": ""
+              }
+            }
+          ],
+          "scheduledEvents": [
+            {
+              "endDate": {
+                "$": [
+                  "ts",
+                  0,
+                  1672022078130
+                ],
+                "$ts": 1672268400000
+              },
+              "eventId": "test",
+              "itemId": "hi",
+              "label": "Scheduled Event",
+              "leadStyle": {
+                "classes": ""
+              },
+              "leadTime": 0,
+              "percentDone": 10,
+              "startDate": {
+                "$": [
+                  "ts",
+                  0,
+                  1672022074513
+                ],
+                "$ts": 1672095600000
+              },
+              "style": {
+                "classes": ""
+              }
+            }
+          ]
+        },
+        "type": "ia.display.equipmentschedule"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
