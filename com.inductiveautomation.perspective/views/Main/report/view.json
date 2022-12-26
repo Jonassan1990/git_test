@@ -9,7 +9,7 @@
           "name": "ReportViewer"
         },
         "position": {
-          "basis": "700px"
+          "basis": "800px"
         },
         "props": {
           "page": 1,
